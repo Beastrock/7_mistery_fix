@@ -6,7 +6,7 @@ def get_roots(a, b, c):
 
     if discriminant  < 0:
         return None, None
-
+    #можем смело посчитать корни, тк тут уже случаи с d>0
     root1 = (-b - sqrt(discriminant)) / (2 * a)
     root2 = (-b + sqrt(discriminant)) / (2 * a)
 
